@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact ME!</title>
+</head>
+<body>
+    <p><em><strong>Officialtushar811@gmail.com</strong></em></p>
+    <h3>Do you wanna join the weekly newsletter!?</h3>
+    <p><em>If YES! than you can enter the following details to help us know you better</em></p>
+    <form action="backend.php" method="post">
+        <label for="name">Name: </label>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <br>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" id="dob"><br>
+        <label for="region">Where are you from?</label><br>
+        <select name="region" id="region">
+        <option value="02">Asia</option>
+        <option value="01">Africa</option>
+        <option value="03">North America</option>
+        <option value="04">Europe</option>
+        
+        <option value="04">South America</option>
+
+    </select><br>
+    
+        <label for="mail">E-mail: </label>
+        <input type="email" id="mail" placeholder="Your E-mail address" required>
+        <br>
+        <label for="ticks">Do you want selected ADS related to motivation and more in your inbox.</label>
+        <input type="checkbox" name="ticks" id="ticks"><br>
+        <div><input type="submit"></div>
+        
+        
+
+    
+    
+</body>
+</html>
